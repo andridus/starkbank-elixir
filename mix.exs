@@ -9,7 +9,7 @@ defmodule StarkBank.MixProject do
       homepage_url: "https://starkbank.com",
       source_url: "https://github.com/starkbank/sdk-elixir",
       description: description(),
-      elixir: "~> 1.9",
+      elixir: "~> 1.4",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       package: package()
